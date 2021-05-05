@@ -1,0 +1,60 @@
+.header {
+  font-family: "Museo Sans Cyrl 700";
+  position: absolute;
+  top: 24px;
+  height: 54px;
+  width: 100%;
+  &__nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    height: 45px;
+  }
+  &__title {
+    color: #fff;
+    text-align: center;
+    &-repres {
+      font-size: 13px;
+      line-height: 11px;
+    }
+    &-represers {
+      margin-top: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 15px;
+    }
+  }
+  &__contact {
+    color: #fff;
+    width: 161px;
+    text-align: center;
+    &-callback {
+      color: #fff;
+    }
+  }
+  &__btn {
+    @include text($Museo700, 12px, #fff);
+    margin-top: 7px;
+    width: 151px;
+    height: 31px;
+    background-color: #c70101;
+    line-height: 9px;
+    text-transform: uppercase;
+    text-align: center;
+    outline: none;
+    border-radius: 6px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover {
+      background-color: #fff;
+      color: #b40303;
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}

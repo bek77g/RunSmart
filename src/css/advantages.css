@@ -1,0 +1,10 @@
+.advantages {
+  padding: 75px 0 95px;
+  background: #f6f6f6 top left/100% 100% no-repeat;
+}
+.advantages__title {
+  font-size: 30px;
+  line-height: 26px;
+  color: #0d0d0d;
+  text-align: center;
+}
